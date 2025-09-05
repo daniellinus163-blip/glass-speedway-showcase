@@ -92,7 +92,7 @@ const Home = () => {
                 Join the elite community of racing enthusiasts and experience the thrill of high-performance motorsports.
               </p>
               <Button variant="racing" size="lg" asChild>
-                <Link to="/contact">
+                <Link to="/auth">
                   Get Started <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>

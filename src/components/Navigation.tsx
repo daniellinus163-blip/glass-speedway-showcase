@@ -42,6 +42,9 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
+            <Button variant="racing" size="sm" asChild>
+              <Link to="/auth">Sign In</Link>
+            </Button>
           </div>
 
           {/* Mobile menu button */}
